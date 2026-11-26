@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>品牌与视觉 · 刘业鹏作品集</title>
+    <meta name="description" content="品牌标识与平面系统的构建，把抽象的品牌性格转译成可执行的视觉规则。">
+    <meta name="theme-color" content="#F4F1E9">
+    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/style.css?v=49">
+    <script>/* 首帧前同步侧栏状态，避免展开/收起闪一下 */
+        try { if (localStorage.getItem('lpf.sb.collapsed') === '1' &&
+            !window.matchMedia('(max-width: 1000px)').matches) {
+            document.documentElement.classList.add('sb-collapsed');
+        } } catch (e) {}
+    </script>
+</head>
+<body class="subpage" data-base="../" data-cat="品牌与视觉">
+    <!-- ============ 左侧导航边栏（磨砂玻璃 · 图标 / 文字两档） ============ -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sb-inner">
+            <a class="sb-brand" href="../index.html" aria-label="刘业鹏个人作品集 首页">
+                <span class="brand-dot" aria-hidden="true"></span>
+                <span class="sb-brand-txt">
+                    <span class="brand-name">刘业鹏</span>
+                    <span class="brand-en">Portfolio</span>
+                </span>
+            </a>
+            <button type="button" class="sb-collapse" id="sbCollapse" aria-expanded="true"
+                    aria-controls="sidebar" aria-label="收起导航栏" title="收起导航栏">
+                <span class="sb-collapse-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11 4.4 6.8 9l4.2 4.6"/></svg></span>
+                <span class="sb-collapse-txt">收起导航</span>
+            </button>
+
+            <nav class="sb-group" aria-label="主导航">
+                <p class="sb-group-title">主导航</p>
+                <ul class="sb-list">
+                    <li class="sb-item" data-nav="home">
+                        <a class="sb-link" href="../index.html">
+                            <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.6 8.2 9 2.8l6.4 5.4"/><path d="M4.4 7.6v7.8h9.2V7.6"/><path d="M7.4 15.4v-4.2h3.2v4.2"/></svg></span>
+                            <span class="sb-link-txt"><span class="sb-link-lb">首页</span></span>
+                        </a>
+                    </li>
+                    <li class="sb-cat" data-cat="城市更新与建筑">
+                        <div class="sb-item">
+                            <a class="sb-link" href="../category/urban.html">
+                                <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="9" width="3.6" height="6.4"/><rect x="6.6" y="4.4" width="4.6" height="11"/><rect x="11.7" y="11" width="3.8" height="4.4"/></svg></span>
+                                <span class="sb-link-txt"><span class="sb-link-lb">城市｜建筑</span><span class="sb-count">5</span></span>
+                            </a>
+                            <button type="button" class="sb-toggle" aria-expanded="false" aria-label="展开 城市｜建筑 下的项目">＋</button>
+                        </div>
+                        <ul class="sb-sub"></ul>
+                    </li>
+                    <li class="sb-cat" data-cat="商业展示与美陈">
+                        <div class="sb-item">
+                            <a class="sb-link" href="../category/retail.html">
+                                <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="6.4" r="2.5"/><path d="M4.4 12.2h9.2"/><path d="M5.6 12.2v3.2h6.8v-3.2"/></svg></span>
+                                <span class="sb-link-txt"><span class="sb-link-lb">展示｜美陈</span><span class="sb-count">9</span></span>
+                            </a>
+                            <button type="button" class="sb-toggle" aria-expanded="false" aria-label="展开 展示｜美陈 下的项目">＋</button>
+                        </div>
+                        <ul class="sb-sub"></ul>
+                    </li>
+                    <li class="sb-cat" data-cat="品牌与视觉">
+                        <div class="sb-item">
+                            <a class="sb-link" href="../category/brand.html">
+                                <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.1" y="3.1" width="4.7" height="4.7"/><rect x="10.2" y="3.1" width="4.7" height="4.7"/><rect x="3.1" y="10.2" width="4.7" height="4.7"/><rect x="10.2" y="10.2" width="4.7" height="4.7"/></svg></span>
+                                <span class="sb-link-txt"><span class="sb-link-lb">品牌｜视觉</span><span class="sb-count">3</span></span>
+                            </a>
+                            <button type="button" class="sb-toggle" aria-expanded="false" aria-label="展开 品牌｜视觉 下的项目">＋</button>
+                        </div>
+                        <ul class="sb-sub"></ul>
+                    </li>
+                    <li class="sb-cat" data-cat="研究与工作坊">
+                        <div class="sb-item">
+                            <a class="sb-link" href="../category/research.html">
+                                <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="9" r="5.2"/><path d="M9 2.1v2.1M9 13.8v2.1M2.1 9h2.1M13.8 9h2.1"/></svg></span>
+                                <span class="sb-link-txt"><span class="sb-link-lb">研究｜工作坊</span><span class="sb-count">2</span></span>
+                            </a>
+                            <button type="button" class="sb-toggle" aria-expanded="false" aria-label="展开 研究｜工作坊 下的项目">＋</button>
+                        </div>
+                        <ul class="sb-sub"></ul>
+                    </li>
+                    <li class="sb-item" data-cat="其他作品" data-nav="archive">
+                        <a class="sb-link" href="../category/archive.html" title="全部项目时间线">
+                            <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.8 5.6h12.4v3H2.8z"/><path d="M4.2 8.6v6.2h9.6V8.6"/><path d="M7.4 11.6h3.2"/></svg></span>
+                            <span class="sb-link-txt"><span class="sb-link-lb">档案</span><span class="sb-count">26</span></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="sb-group" aria-label="辅助链接">
+                <p class="sb-group-title">页面</p>
+                <ul class="sb-list">
+                    <li class="sb-item" data-nav="about">
+                        <a class="sb-link" href="../about.html">
+                            <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="6.4" r="2.7"/><path d="M3.8 15.4c0-3.2 2.4-5 5.2-5s5.2 1.8 5.2 5"/></svg></span>
+                            <span class="sb-link-txt"><span class="sb-link-lb">关于</span></span>
+                        </a>
+                    </li>
+                    <li class="sb-item" data-nav="contact">
+                        <a class="sb-link" href="../contact.html">
+                            <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.6" y="4.8" width="12.8" height="8.4"/><path d="M2.6 5.7 9 10.4l6.4-4.7"/></svg></span>
+                            <span class="sb-link-txt"><span class="sb-link-lb">联系</span></span>
+                        </a>
+                    </li>
+                    <li class="sb-item sb-item--spacer" aria-hidden="true"><span class="sb-link sb-link--spacer">&nbsp;</span></li>
+                    <li class="sb-item">
+                        <button type="button" class="sb-link" id="backTop">
+                            <span class="sb-ico" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 14.6V3.9"/><path d="M4.7 8.2 9 3.9l4.3 4.3"/></svg></span>
+                            <span class="sb-link-txt"><span class="sb-link-lb">回到顶部</span></span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sb-foot">
+                <p class="sb-group-title">联系</p>
+                <ul class="sb-contact">
+                    <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+                    <li><span>微信 liuyepeng_design</span></li>
+                    <li><span>中国 · 北京 · 接受远程协作</span></li>
+                </ul>
+                <p class="sb-copy">© <span id="year"></span> 刘业鹏<br>保留所有权利</p>
+            </div>
+
+        </div>
+    </aside>
+
+    <!-- 分类飞出面板（桌面端悬停 / 聚焦展开） -->
+    <div class="sb-flyout" id="sbFlyout" role="group" aria-label="项目快速导航">
+        <div class="sb-flyout-inner" id="flyInner"></div>
+    </div>
+
+    <!-- 窄屏抽屉开关 + 遮罩 -->
+    <button class="sb-menu-btn" id="sbMenuBtn" aria-label="打开导航" aria-expanded="false" aria-controls="sidebar">
+        <span class="bars" aria-hidden="true">≡</span><span class="x" aria-hidden="true">✕</span>
+    </button>
+    <div class="sb-backdrop" id="sbBackdrop"></div>
+    <nav class="breadcrumb" aria-label="面包屑">
+        <a href="../index.html">首页</a><span class="sep">›</span><span class="current">品牌｜视觉</span>
+    </nav>
+    <main class="container sub-main">
+        <header class="cat-hero">
+            <span class="cat-no">03</span>
+            <h1 class="cat-title">品牌与视觉</h1>
+            <span class="cat-en">Brand &amp; Visual</span>
+            <p class="cat-desc">品牌标识与平面系统的构建，把抽象的品牌性格转译成可执行的视觉规则。</p>
+        </header>
+        <ul class="cat-list">
+            <li class="cat-item">
+                <a href="../project/robot-brand-identity.html">
+                    <span class="cat-item-no">01</span>
+                    <span class="cat-item-title">银河通用机器人会议室设计</span>
+                    <span class="cat-item-meta">北京</span>
+                    <span class="status-badge status-built">已建成</span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a href="../project/cafa-visual.html">
+                    <span class="cat-item-no">02</span>
+                    <span class="cat-item-title">中央美术学院视觉设计</span>
+                    <span class="cat-item-meta">北京</span>
+                    
+                </a>
+            </li>
+            <li class="cat-item">
+                <a href="../project/figure03-robot-visual.html">
+                    <span class="cat-item-no">03</span>
+                    <span class="cat-item-title">Figure03机器人品牌视觉</span>
+                    <span class="cat-item-meta"></span>
+                    
+                </a>
+            </li>
+        </ul>
+    </main>
+    <script src="../js/data.js?v=8"></script>
+    <script src="../js/nav.js?v=5"></script>
+    <script src="../js/site.js?v=2"></script>
+</body>
+</html>
